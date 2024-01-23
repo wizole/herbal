@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formstyle.css">
+</head>
+<body>
+<legend ><u>Project Management</u></legend>
+ <br>
+<form action="">
+    <label for="pn">Project Name</label>
+    <input type="text" id="pn" placeholder="Project Name" required="required">
+    <br><br>
+      <label for="assto">Assigned to</label>
+   <select name="" id="assto">
+     <option value="choose" disabled="disabled">--Choose Course </option>
+    <option value="headteacher">Sir Edward</option>
+    <option value="assistant">Madam Clare</option>
+    <option value="it cordinator">Madam princess</option>
+    <option value="principal">Sir jakson</option>
+    </select>
+    <br><br>
+      <label for="dmy">Start Date</label>
+    <input type="date" id="dmy" placeholder="Start Date" required="required">
+    <br><br>
+       <label for="myd">End Date</label>
+    <input type="date" id="myd" placeholder="End Date" required="required">
+    <br><br>
+    <label >Priority</label>
+       <div class="radbox">
+    <input type="radio" id="high">
+    <label for="high">High</label>
+
+    <input type="radio" id="average">
+    <label for="average">Average</label>
+
+        <input type="radio" id="low">
+        <label for="low">Low</label>
+    </div>
+
+    <br><br>
+    <label for="type">Description</label>
+    <textarea name="" id="type" cols="50" rows="1"></textarea>
+    <br><br>
+     <button type="submit" style="background-color: green">Submit</button>
+     <button type="clear"style="background-color: blue">Clear</button>
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+legend{
+    font-size: 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+form{
+    background-color: aqua;
+    margin: auto;
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 50px;
+    height: 500px;
+    border-radius: 9px;
+}
+button {
+    width: 100px;
+    height: 40px;
+
+    border-radius: 10px;
+    margin-left: 100px;
+}
+button:hover{
+    background-color: #9e18a2;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+.radbox{
+    margin-left: 100px;
+}
+input[type=date],input[type=text],textarea,select{
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+
+}

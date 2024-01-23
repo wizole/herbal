@@ -1,0 +1,18 @@
+img{
+    margin-left: 20px;
+}
+.main{
+    display: grid;
+}
+.first{
+display: flex;
+    padding-bottom: 40px;
+}
+.second{
+display: flex;
+    padding-bottom: 40px;
+}
+.third{
+display: flex;
+    padding-bottom: 40px;
+}
